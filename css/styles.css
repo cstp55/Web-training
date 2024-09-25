@@ -48,7 +48,7 @@ nav ul li a:hover {
 
 /* Hero section */
 .hero {
-    background-image: url('hero-background.jpg');
+    background-image: url('../images/hero-background.jpg');
     background-size: cover;
     background-position: center;
     height: 800px;
@@ -122,4 +122,18 @@ footer {
     text-align: center;
     padding: 10px 0;
     margin-top: 20px;
+}
+/* use media screen  */
+/* screen 400 lest  */
+@media screen and (max-width:400px){
+ #about{
+    width: 100%;
+ }
+}
+/* oritence, max-width, min-width, height  */
+
+/* Bootstrap css framwork  */
+/* set heigh priority  parent child elemmt  */
+body header .continer {
+
 }
